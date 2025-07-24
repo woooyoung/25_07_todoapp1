@@ -1,9 +1,14 @@
-import Image from 'next/image';
+'use client';
+
+import Button from '@mui/material/Button';
 
 export default function Home() {
   return (
     <>
-      <div>안녕</div>
+      <button>버튼</button>
+      <Button className="tw-bg-red-500" variant="contained">
+        Contained
+      </Button>
     </>
   );
 }
